@@ -1,0 +1,15 @@
+# Terraform state
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.*
+
+# Terraform variables
+*.tfvars
+
+# Terraform directories
+.terraform/
+
+# OS / editor
+.DS_Store
+.vscode/
