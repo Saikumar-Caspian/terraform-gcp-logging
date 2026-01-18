@@ -22,3 +22,7 @@ variable "location" {
   description = "Bucket location (e.g. US)"
   type        = string
 }
+variable "vm_service_account" {
+  description = "VM service account email"
+  type        = string
+}
